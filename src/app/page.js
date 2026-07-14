@@ -157,7 +157,6 @@ setSectorData(sectorArray);
           Selected Fund IDs
         </h2>
 
-        <p>{JSON.stringify(selectedFunds)}</p>
       </div>
       <button
     onClick={analyzePortfolio}
