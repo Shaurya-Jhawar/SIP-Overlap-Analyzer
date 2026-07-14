@@ -152,12 +152,7 @@ setSectorData(sectorArray);
         </div>
       ))}
 
-      <div className="mt-8">
-        <h2 className="text-xl font-bold">
-          Selected Fund IDs
-        </h2>
-
-      </div>
+      
       <button
     onClick={analyzePortfolio}
     disabled={selectedFunds.length < 2}
