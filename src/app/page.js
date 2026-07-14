@@ -237,7 +237,7 @@ setSectorData(sectorArray);
 
         <YAxis />
 
-        <Tooltip />
+        <Tooltip cursor={{ fill: 'rgba(255,255,255,0.05)' }} />
 
         <Bar
           dataKey="totalAllocation"
